@@ -1,19 +1,19 @@
 variable region {
-    default = "us-east-1"
-    type = string
-    description = "Provide Region"
+  default = "us-east-1"
+  type = string
+  description = "Provide region"
 }
 
 variable key_name {
-    default = "my-key-yo"
-    type = string
-    description = "Provide Key Name"
+  default = "pat-key"
+  type = string 
+  description = "Provide key name"
 }
 
 variable port {
-    default = [22,80]
-    type = list(number)
-    description = "Provide Port"
+  default = [22, 80]
+  type = list(number)
+  description = "Provide port"
 }
 
 variable ec2_web {

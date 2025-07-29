@@ -1,8 +1,7 @@
 locals {
     common_tags = {
-        Name = "Hello"
+        Name = "hello"
         Environment = "Dev"
         Team = "DevOps"
-        App = "Deez"
     }
 }
